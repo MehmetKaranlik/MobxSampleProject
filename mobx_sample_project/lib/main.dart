@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 
-import 'feature/common/view/home/view/home_view.dart';
+import 'feature/common/view/post/view/post_view.dart';
+
+
 
 void main() {
   runApp(const MyApp());
@@ -14,10 +16,9 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Flutter Demo',
       theme: ThemeData(
-
         primarySwatch: Colors.blue,
       ),
-      home: const HomeView(),
+      home:  PostView(),
     );
   }
 }
